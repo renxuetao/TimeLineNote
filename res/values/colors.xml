@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#34CF95</color>
+    <color name="contentbh">#F6F6F4</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="light_gray">#F6F6F6</color>
+    <color name="blue_nature">#1E81D2</color>
+    <color name="green_nature">#68BF8A</color>
+    <color name="red_nature">#CF181D</color>
+    <color name="blue_light">#70CFEAFB</color>
+    <color name="grayGreen_press">#8C9859</color>
+    <color name="grayGreen_alph70">#708C9859</color>
+    <color name="grayGreen">#E2E6C5</color>
+    <color name="grayBlown_press">#8B8884</color>
+    <color name="grayBlown_alph70">#708B8884</color>
+    <color name="grayBlown">#B5B1AC</color>
+    <color name="grayPuples">#CCCBF0</color>
+    <color name="mousemove">#F28B1D</color>
+    <color name="nocolor">#00000000</color>
+</resources>

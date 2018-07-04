@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menu_grouPassword" >
+        <item
+            android:id="@+id/menu_im_setPassword"
+            android:title="设置密码"/>
+        <item
+            android:id="@+id/menu_im_alterPassword"
+            android:title="修改密码"/>
+        <item
+            android:id="@+id/menu_im_deletePassword"
+            android:title="删除密码"/>
+    </group>
+
+</menu>

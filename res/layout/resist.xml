@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_flower"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:background="@color/blue_light" >
+
+        <Button
+            android:id="@+id/btn_resist_cancle"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/nocolor"
+            android:text="返回"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="设置密码"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/ly_set_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="密码"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/resist_password"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue_light" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="密保问题"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/resist_question"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue_light" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="答案"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/resist_answer"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_ensure_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+		 <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="请输入密码"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/edt_ensure_password"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:password="true"
+            android:background="@color/blue_light" />
+        <TextView
+            android:id="@+id/tv_forgive"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="忘记密码？"
+            android:textColor="@drawable/move_btn"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_answerquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_answer_question"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="what is your name?"
+            android:textColor="@color/blue_nature"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/ed_answer_question"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue_light" />
+    </LinearLayout>
+<Button
+    android:id="@+id/btn_ensure"
+    android:layout_width="100dp"
+     android:layout_height="30dp"
+     android:layout_marginTop="5dp"
+     android:text="下一步"
+     android:gravity="center"
+     android:textColor="@color/blue_nature"
+     android:background="@color/blue_light" />
+</LinearLayout>
+</LinearLayout>
